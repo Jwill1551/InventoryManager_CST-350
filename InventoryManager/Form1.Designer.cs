@@ -41,12 +41,12 @@
             this.listBox5 = new System.Windows.Forms.ListBox();
             this.listBox6 = new System.Windows.Forms.ListBox();
             this.headerLabel1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.addInputBtn1 = new System.Windows.Forms.Button();
+            this.addInputBtn2 = new System.Windows.Forms.Button();
+            this.addInputBtn3 = new System.Windows.Forms.Button();
+            this.addInputBtn4 = new System.Windows.Forms.Button();
+            this.addInputBtn5 = new System.Windows.Forms.Button();
+            this.addInputBtn6 = new System.Windows.Forms.Button();
             this.applyBtn = new System.Windows.Forms.Button();
             this.headerLabel2 = new System.Windows.Forms.Label();
             this.headerLabel3 = new System.Windows.Forms.Label();
@@ -181,66 +181,66 @@
             this.headerLabel1.Text = "Header 1";
             this.headerLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // addInputBtn1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightPink;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(40, 449);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 47);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Add Input";
-            this.button1.UseVisualStyleBackColor = false;
+            this.addInputBtn1.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.addInputBtn1.Location = new System.Drawing.Point(40, 449);
+            this.addInputBtn1.Name = "addInputBtn1";
+            this.addInputBtn1.Size = new System.Drawing.Size(113, 47);
+            this.addInputBtn1.TabIndex = 14;
+            this.addInputBtn1.Text = "Add Input";
+            this.addInputBtn1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // addInputBtn2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightPink;
-            this.button2.Location = new System.Drawing.Point(159, 449);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 47);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Add Input";
-            this.button2.UseVisualStyleBackColor = false;
+            this.addInputBtn2.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn2.Location = new System.Drawing.Point(159, 449);
+            this.addInputBtn2.Name = "addInputBtn2";
+            this.addInputBtn2.Size = new System.Drawing.Size(111, 47);
+            this.addInputBtn2.TabIndex = 15;
+            this.addInputBtn2.Text = "Add Input";
+            this.addInputBtn2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // addInputBtn3
             // 
-            this.button3.BackColor = System.Drawing.Color.LightPink;
-            this.button3.Location = new System.Drawing.Point(276, 449);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 47);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Add Input";
-            this.button3.UseVisualStyleBackColor = false;
+            this.addInputBtn3.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn3.Location = new System.Drawing.Point(276, 449);
+            this.addInputBtn3.Name = "addInputBtn3";
+            this.addInputBtn3.Size = new System.Drawing.Size(114, 47);
+            this.addInputBtn3.TabIndex = 16;
+            this.addInputBtn3.Text = "Add Input";
+            this.addInputBtn3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // addInputBtn4
             // 
-            this.button4.BackColor = System.Drawing.Color.LightPink;
-            this.button4.Location = new System.Drawing.Point(396, 449);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 47);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Add Input";
-            this.button4.UseVisualStyleBackColor = false;
+            this.addInputBtn4.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn4.Location = new System.Drawing.Point(396, 449);
+            this.addInputBtn4.Name = "addInputBtn4";
+            this.addInputBtn4.Size = new System.Drawing.Size(121, 47);
+            this.addInputBtn4.TabIndex = 17;
+            this.addInputBtn4.Text = "Add Input";
+            this.addInputBtn4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // addInputBtn5
             // 
-            this.button5.BackColor = System.Drawing.Color.LightPink;
-            this.button5.Location = new System.Drawing.Point(523, 449);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 47);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "Add Input";
-            this.button5.UseVisualStyleBackColor = false;
+            this.addInputBtn5.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn5.Location = new System.Drawing.Point(523, 449);
+            this.addInputBtn5.Name = "addInputBtn5";
+            this.addInputBtn5.Size = new System.Drawing.Size(118, 47);
+            this.addInputBtn5.TabIndex = 18;
+            this.addInputBtn5.Text = "Add Input";
+            this.addInputBtn5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // addInputBtn6
             // 
-            this.button6.BackColor = System.Drawing.Color.LightPink;
-            this.button6.Location = new System.Drawing.Point(647, 449);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 47);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "Add Input";
-            this.button6.UseVisualStyleBackColor = false;
+            this.addInputBtn6.BackColor = System.Drawing.Color.LightPink;
+            this.addInputBtn6.Location = new System.Drawing.Point(647, 449);
+            this.addInputBtn6.Name = "addInputBtn6";
+            this.addInputBtn6.Size = new System.Drawing.Size(118, 47);
+            this.addInputBtn6.TabIndex = 19;
+            this.addInputBtn6.Text = "Add Input";
+            this.addInputBtn6.UseVisualStyleBackColor = false;
             // 
             // applyBtn
             // 
@@ -339,12 +339,12 @@
             this.Controls.Add(this.headerLabel3);
             this.Controls.Add(this.headerLabel2);
             this.Controls.Add(this.applyBtn);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.addInputBtn6);
+            this.Controls.Add(this.addInputBtn5);
+            this.Controls.Add(this.addInputBtn4);
+            this.Controls.Add(this.addInputBtn3);
+            this.Controls.Add(this.addInputBtn2);
+            this.Controls.Add(this.addInputBtn1);
             this.Controls.Add(this.headerLabel1);
             this.Controls.Add(this.listBox6);
             this.Controls.Add(this.listBox5);
@@ -367,7 +367,11 @@
 
         #endregion
 
+<<<<<<< HEAD
         private System.Windows.Forms.Label appTitle;
+=======
+        private System.Windows.Forms.Label app_title;
+>>>>>>> 81163d22616e186b27b9deddc4ac54572135ee4f
         private System.Windows.Forms.Button settingsBtn;
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.Button removeBtn;
@@ -379,13 +383,14 @@
         private System.Windows.Forms.ListBox listBox4;
         private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.ListBox listBox6;
+<<<<<<< HEAD
         private System.Windows.Forms.Label headerLabel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button addInputBtn1;
+        private System.Windows.Forms.Button addInputBtn2;
+        private System.Windows.Forms.Button addInputBtn3;
+        private System.Windows.Forms.Button addInputBtn4;
+        private System.Windows.Forms.Button addInputBtn5;
+        private System.Windows.Forms.Button addInputBtn6;
         private System.Windows.Forms.Button applyBtn;
         private System.Windows.Forms.Label headerLabel2;
         private System.Windows.Forms.Label headerLabel3;
@@ -393,6 +398,9 @@
         private System.Windows.Forms.Label headerLabel5;
         private System.Windows.Forms.Label headerLabel6;
         private System.Windows.Forms.RadioButton radioButton1;
+=======
+        private System.Windows.Forms.Label label1;
+>>>>>>> 81163d22616e186b27b9deddc4ac54572135ee4f
     }
 }
 
